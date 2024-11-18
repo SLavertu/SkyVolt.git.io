@@ -1,0 +1,295 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfe9ec; 
+    background: url('images/orangeshoe.jpeg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    min-height:100vh; 
+}
+
+header {
+    background-color: #1792a3;
+    color: rgb(137, 39, 39);
+    padding: 1rem;
+    text-align: center;
+}
+
+header {
+    position: relative;
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+    max-width: 100px; 
+    max-height: 500px; 
+    object-fit: cover; 
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    padding: 11px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    background-color: #2e6375;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(137, 39, 39);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.background {
+    background-image: URL(../images/orangeshoe.jpeg);
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 48px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #2e6375;
+    color: #fff;
+    margin-top: 30;
+    padding-top: 20;
+}
+
+footer ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 15px; 
+}
+
+footer ul li a {
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px; 
+}
+
+footer ul li a:hover {
+    background-color: #333; 
+}
+
+small {
+    color: rgb(137, 39, 39);
+}
+.orangeback {
+    background: rgba(171, 41, 15, 0.475);
+    padding: 10px;
+    border: 3px solid #c85212a9;
+    border-radius: 10px;
+    margin: 60px;
+}
+
+.blueback {
+    background: rgba(83, 106, 190, 0.784);
+    padding: 10px;
+    border: 3px solid #1525d1;
+    border-radius: 10px;
+    margin: 60px;
+}
+
+.orangeback ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.orangeback ul li {
+    padding-left: 0; 
+    margin-bottom: 5px;
+}
+.blueback ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.blueback ul li {
+    padding-left: 0; 
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+}
+
+table th, table td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #1a73a7;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #0d88a1;
+}
+
+ul.top-locations {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.location-form {
+    max-width: 400px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: whitesmoke; 
+    box-shadow: 0 4px 6px rgb(196, 49, 49); 
+    border-radius: 8px; 
+    text-align: left;
+}
+
+.location-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333; 
+}
+
+.location-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.location-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a73a7; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.location-form button:hover {
+    background-color: #145a7c; 
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        text-align: left;
+        padding: 1rem 2rem;
+    }
+
+    header h2 {
+        font-size: 28px;
+    }
+
+    .logo {
+        width: 120px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    .background {
+        background-size: cover;
+    }
+
+    footer {
+        padding: 1rem;
+        font-size: 14px;
+    }
+
+    footer nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    footer nav ul li {
+        margin: 5px 0;
+    }
+
+    .location-form {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .social-links li {
+        margin: 5px
+    }
+}
